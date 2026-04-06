@@ -107,7 +107,7 @@ function App() {
     <div className="container">
       <header className="header">
         <h1>Brand Forge</h1>
-        <p>Premium UI/UX Problem Statements Showcase</p>
+        <p> UI/UX Problem Statements </p>
       </header>
 
       <main className="grid">
@@ -119,9 +119,9 @@ function App() {
               </h2>
               <span className="domain">{item.domain}</span>
             </div>
-            
+
             <p className="problem">{item.problem}</p>
-            
+
             <h3 className="section-title">🎯 Requirements</h3>
             <ul className="list">
               {item.requirements.map((req, i) => (
@@ -142,7 +142,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>Designed for Vercel Deployment • Minimal Dark Theme</p>
+        <p>Designed by karan</p>
       </footer>
     </div>
   );
